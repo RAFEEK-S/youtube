@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: cursive;
+    cursor:pointer;
+}
+
+nav{
+    
+    
+    display:flex;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+nav a{
+    font-size: 30px;
+    text-decoration: none;
+
+    
+}
+nav a i{
+    color:red;
+}
+
+.search{
+    width:500px;
+    height:37px;
+    border-radius: 10px;
+
+}
+.btns{
+    width:75px;
+    height:37px;
+    border-radius: 10px;
+    border:2px solid black;
+    
+
+}
+
+.fa-microphone{
+    font-size:20px;
+   
+    
+}
+
+ nav div{
+ margin: 0px 20px;
+ font-size:25px;
+}
+
+.fa-solid{ 
+    padding:0px 10px;
+    
+ } 
+
+ .image{
+   width:40px;
+   height:40px;
+   border-radius:50%;
+   border: none;
+
+ }
+ .image img{
+   width:35px;
+   height:35px;
+   border-radius:50%;
+
+ }
+ .filter{
+    position:sticky;
+    top:0%;
+    margin-left:15%;
+ }
+ .filter button {
+    font-size: 15px;
+    margin: 0px 3px;
+    border-radius:5px;
+    border: none;
+    padding: 10px;
+ }
+
+ .videos{
+   
+    display:flex;
+    flex-wrap: wrap;
+    /* grid-template-columns:auto auto auto auto auto; */
+    /* width:100%; */
+    margin-left: 15%;
+    }
+.channelname{
+    display:flex;
+} 
+.channelname ul{
+    list-style: none;
+ }
+.enclosed{
+    width: 300px;
+    height: fit-content;
+    margin: auto;
+}
+
+div ul li{
+    list-style: none;
+    padding:10px 0px;
+}
+
+.fa-solid{
+    padding:0px 20px;
+}
+.fa-brands{
+    padding:0px 20px;
+}
+
+div ul li button{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border: none;
+   margin-left: 10px;
+   margin:0 10px;
+}
+
+div ul li button .sideimg{
+    width:35px;
+   height:35px;
+   border-radius:50%;
+   
+}
+
+.sidebar{
+    position:fixed;
+    width:fit-content;
+    height:100%;
+    border:2px solid lightblue;
+    left:0;
+   right:0;
+  border: none;
+  overflow: auto;
+
+  
+   
+}
+
+
+@media  (max-width:768px){
+    .sidebar{
+       display: none;
+    
+      
+       
+    }
+}
